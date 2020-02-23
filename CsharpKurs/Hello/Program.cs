@@ -10,6 +10,12 @@ namespace Hello
     {
         static void Main(string[] args)
         {
+            //string name = args[2];
+            //Console.WriteLine("siemanko " + name);
+            foreach (var item in args)
+            {
+                Console.WriteLine("siemanko" + item);
+            }
         }
     }
 }
